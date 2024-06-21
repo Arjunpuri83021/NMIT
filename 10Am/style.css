@@ -1,0 +1,43 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+.reg-form{
+    width: 50%;
+    margin: auto;
+}
+
+.reg-form label{
+    display: block;
+    margin-top: 10px;
+}
+
+.reg-form input{
+    width: 100%;
+    padding: 10px;
+}
+
+.reg-form div{
+   display: flex;
+   justify-content: center;
+}
+
+.reg-form div button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: rgb(29, 84, 84);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.reg-form div button:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid 1px black;
+    color: black;
+    
+}

@@ -1,0 +1,93 @@
+/* .boot-table{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+
+
+  .box {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  @keyframes color {
+    from {
+      background-position: 0% 50%;
+    }
+    to {
+      background-position: 100% 50%;
+    }
+  }
+  h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 8vw;
+    font-weight: 400;
+    color: transparent;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 1) 0%,
+      rgba(238, 100, 10, 1) 7%,
+      rgba(210, 169, 39, 1) 14%,
+      rgba(234, 252, 62, 1) 21%,
+      rgba(134, 248, 82, 1) 28%,
+      rgba(99, 245, 156, 1) 35%,
+      rgba(87, 241, 215, 1) 42%,
+      rgba(75, 216, 237, 1) 49%,
+      rgba(66, 158, 239, 1) 56%,
+      rgba(57, 74, 241, 1) 63%,
+      rgba(126, 45, 244, 1) 70%,
+      rgba(162, 84, 247, 1) 77%,
+      rgba(229, 117, 249, 1) 84%,
+      rgba(251, 103, 164, 1) 91%,
+      rgba(253, 127, 190, 1) 97%,
+      rgba(255, 0, 191, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 500%;
+    animation: color 10s linear infinite;
+  } */
+
+
+
+
+
+.checkImg{
+  border: solid 1px rgb(174, 71, 7);
+  width: 150px;
+  height: 135px;
+  border-radius: 50%;
+  display: flex;
+    justify-content: center;
+    margin: auto;
+    transition: 0.2s;
+   
+}
+
+.checkImg:hover{
+  width: 160px;
+   height: 140px;
+}
+
+
+  .checkImg div{
+    
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgb(174, 71, 7);
+    padding: 30px;
+  }
+
+  .checkImg div:hover{
+    background-color: rgb(163, 155, 143);
+  }
+
+  .checkImg img{
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
