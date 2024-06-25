@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    color: #000000;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+.register-form{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.register-form h1{
+    width: 30%;
+}
+
+.register-form label{
+    display: block;
+    margin-top: 10px;
+}
+
+.register-form p {
+    text-align: center;
+    color: red;
+    font-size: 14px;
+}
+
+
+.register-form button{
+    color: #ffff;
+    background-color: black;
+    padding: 10px 60px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    transition: 1s;
+    text-transform: uppercase;
+}
+.register-form button a{
+    color: white;
+}
+.register-form button:hover{
+    background-color: #ffff;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+.register-form span{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.hover-input:hover{
+    transition: 1s;
+    box-shadow: rgba(56, 132, 195, 0.16) 0px 1px 4px, rgba(56, 132, 195, 0.16) 0px 0px 0px 3px;
+}
+
+
+.nav-bar{
+    width: 60%;
+    margin: auto;
+}
+
+.nav-bar h2{
+   text-align: center !important;
+   color: #000;
+}
+
+.nav-bar div ul li{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-bar div ul li:hover{
+    text-decoration: underline;
+}
+
+.nav-bar div ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 51, 7);
+    padding: 15px 150px;
+    list-style: none;
+}
+ 
+.bg-img{
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.bg-img img{
+    height: 500px;
+}
+
+
+.img-btn button{
+    padding: 10px 40px ;
+    background-color: rgb(15, 51, 7);
+    border: none;
+    border-radius: 20px;
+    color: #ffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.img-btn button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.img-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+.our-team{
+    background-color: #127fde;
+    margin-top: 40px;
+}
+
+.our-team section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team section div img{
+    width: 200px; 
+    height: 200px;  
+    clip-path: circle(50%);
+    
+}
+.our-team section div h5{
+    text-align: center;
+    color: #ffff;
+    font-size: 25px;
+    margin: 0;
+}
+
+.our-team section div p{
+    text-align: center;
+    color: #cdc7c7;
+    font-size: 15px;
+    margin: 0;
+}
+
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+.services div{
+    width: 30%;
+}
+
+.services div i {
+     
+    display: flex;
+    justify-content: center;
+    color: rgb(24, 163, 213);
+    font-size: 45px;
+}
+.services div h3{
+    text-align: center;
+    color: rgb(24, 163, 213);
+}
+
+.services div p{
+    text-align: center;
+}
+
+
+.get-touch{
+ display: flex;
+ justify-content: space-between;
+ padding-top: 20px;
+}
+
+.get-touch div i{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    font-size: 30px;
+}
+
+.get-touch div h5{
+    text-align: center;
+    color: #ffff;
+    font-size: 17px;
+}
+
+.get-touch div p{
+    text-align: center;
+    color: #ffff;
+}
+
+.get-touch div{
+    width: 20%;
+}
+
+.google-map{
+   display: flex;
+   justify-content: center;
+}
+.google-map iframe{
+    width: 70%;
+    border-radius: 10px;
+    padding-bottom: 70px;
+}
+
+.footer{
+
+}
+
+.footer h2{
+    text-align: center;
+    color: #ffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-top: 30px;
+    margin: 0px;
+    margin-bottom: 20px;
+
+}
+
+.footer div{
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+    margin: auto auto 20px auto;
+
+}
+
+.footer h6{
+    text-align: center;
+    font-size: 20px;
+    color: #ffff;
+    padding-bottom: 60px;
+    margin: 0px;
+}
