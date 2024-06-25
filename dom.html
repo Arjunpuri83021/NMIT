@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    
+    
+
+
+ <script>
+  
+ const hading= document.createElement('h1')
+  hading.innerText="login form"
+  document.body.appendChild(hading)
+  hading.style.textAlign="center"
+  
+  
+ const form= document.createElement('form')
+  document.body.appendChild(form)
+  form.style.width="25%"
+  form.style.margin="auto"
+
+
+ const name= document.createElement('label')
+ form.appendChild(name)
+ name.innerText="User Name"
+ name.style.display="block"
+
+const nameInput= document.createElement('input')
+form.appendChild(nameInput)
+nameInput.style.width="100%"
+nameInput.style.padding="10px"
+nameInput.placeholder="Enter Your Name"
+
+
+const password = document.createElement('label')
+ form.appendChild(password)
+ password.innerText="Password"
+ password.style.display="block"
+
+const passwordInput= document.createElement('input')
+form.appendChild(passwordInput)
+passwordInput.style.width="100%"
+passwordInput.style.padding="10px"
+passwordInput.placeholder="Enter Your Passowrd"
+
+const div=document.createElement('div')
+form.appendChild(div)
+div.style.display="flex"
+div.style.justifyContent="center"
+
+const btn=document.createElement('button')
+div.appendChild(btn)
+btn.innerText="Submit"
+btn.style.padding="10px 20px"
+btn.style.background="red"
+btn.style.color="#ffff"
+btn.style.marginTop="20px"
+btn.style.border="none"
+
+ </script>   
+</body>
+</html>
