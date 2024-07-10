@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo div {
+    display: flex;
+    justify-content: center;
+}
+.logo div i{
+    font-size: 30px;
+    padding-top: 20px 0px 5px auto;
+}
+.logo div h1{
+    
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .list nav{
+    margin: top 5px;
+    padding: 15px;
+  }
+ .list nav ul {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+    justify-content: space-around;
+    
+    list-style-type: none;
+
+ }
+ .list nav ul li{
+    color: rgb(6, 6, 247);
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    padding: 15px;
+    transition: 1s  ;
+    cursor: pointer;
+
+ } 
+ .list nav ul li:hover{
+    background-color: white;
+    color: black;
+  border-radius: 5px;
+ }
+ .img div {
+    width: 80%;
+    margin: auto;
+    
+
+ }
+ .img div{
+    text-align: center;
+    padding-bottom: 5px;
+ }
+ .about{
+    width: 80%;
+    margin: auto;
+ }
+ .about div h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+ }
+ .about div p{
+    text-align: center;
+    color: rgb(96, 2, 248);
+    padding-top: 5px;
+    text-decoration: none;
+ }
+ .button div{
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    margin: auto;
+  
+ }
+ .button div button{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin: 10px auto 10px auto;
+    border-style: none;
+    transition: 1s;
+}
+.button div button:hover{
+  border-radius: 5px;
+  background-color: blue;
+
+}
+.ourteam{
+    width: 80%;
+    margin: auto auto 10px auto;
+    background-color: rgb(183, 183, 216);
+    padding: 15px;
+}
+.ourteam  h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:10px;
+    
+}
+.ourteam section {
+    display: flex;
+    justify-content: space-between;
+     width: 80%;
+     margin: auto;
+   
+
+}
+
+.ourteam section div img{
+  
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    clip-path: circle(50%);
+
+}
+.ourteam section div h4{
+    text-align: center;
+}
+.ourteam section div p{
+    text-align: center;
+}
+.ourteam section div div {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+.services{
+    width: 80%;
+    margin: auto auto 10px auto;
+    background-color: rgb(219, 219, 167);
+    padding: 15px;
+}
+.services h1{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.services section{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+   
+}
+.services section div i{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+    padding: 50px;
+}
+.services section div p{
+    font: size 10px ;
+
+}
+.map{
+
+    width: 80%;
+    margin:  auto auto 20px auto;
+    background-color: rgb(171, 218, 202);
+    padding: 15px;
+
+}
+.map p{
+    text-align: center;
+}
+.map div {
+    text-align: center;
+}
