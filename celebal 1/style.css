@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.social {
+    padding: 5px;
+    display: flex;
+    background-color: #212121;
+    justify-content:flex-end ;
+    text-align: center;
+    
+}
+.social div {
+    margin-right: 20px;
+    font-weight:border;
+   
+}
+.nav {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.nav div nav ul {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 40px;
+    
+    
+}
+.nav div button{
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: #d32f2f;
+    border-style: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    margin-top: px;
+}
+.home1 div video{
+    position: relative;
+    vertical-align: middle;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.home1 div h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 440px;
+}
+.nav2 div{
+   align-items: center;
+    color: #737373;
+    height: 100%;
+     cursor: pointer;
+    transition: .2s linear;
+    padding: 20px;
+}
+.nav2 div nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav2 div nav ul li{
+    padding: 0 3rem;
+    font-weight: bold;
+  
+}
+.map {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+   margin-top: 40px;
+}
+.map div img{
+    width: 616px;
+    height: 380.58px;
+    margin-right: 140px;
+}
+.map div {
+   padding-left: 120px;
+   margin-bottom: 50px;
+}
+.map div h1{
+    font-size: 50px;
+   
+}
+.map div button{
+    margin-top: 70px;
+    padding: 15px 15px 15px 30px;
+    
+    border-radius: 8px;
+    background-color: #d32f2f;
+    cursor: pointer;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+}
+.Differentiators {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    
+}
+.Differentiators h1{
+    font-size: 50px;
+    font-family: Georgia;
+    color: #737373;
+    
+}
+.Differentiators h1 span{
+    color: black !important;
+   
+
+}
+.card {
+    
+    width: 422.14px;
+    height:320.44px ;
+
+    overflow: hidden;
+   transition: transform 0.5s;
+ 
+  }
+  
+  .card:hover {
+   
+    transform: scale(1.05);
+  }
+  .Industries{
+    margin: 0px 28px;
+    padding: 50px 70px 90px;
+    font-family: lexend;
+  }
+  .Industries img{
+    border-radius: 10px;
+    transform: scale(1);
+    overflow: hidden;
+    position: relative;
+    
+  }
+.Industries img:hover{
+  overflow: hidden;
+}
+.Industries div button{
+    padding: 3px 10px;
+    color: rgb(235 18 18);
+    font-weight: bold;
+    border:solid 1px rgb(235 18 18);
+    border-radius: 5px;
+}
+.Industries div{
+    width: 780px;
+    height: 241.6px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 hsla(0, 0%, 63%, .25);
+    padding: 20px;
+    margin-right: 5px;
+    border-radius: 8px;
+   
+    margin-bottom: -30px;
+    left: 600px;
+    top: 2000px;
+}
+.Products{
+    background-image:  url(Screenshot\ 2024-07-15\ 150307.png);
+    object-fit: cover;
+}
+.Products{
+    padding-bottom: 50px;
+}
+    
+
+
+
+
+.Products section {
+    display: flex;
+    justify-content: space-between;
+  margin: 0px 15px ;
+  padding: 0px 100px;
+  padding-bottom: 40px;
+  
+
+   
+}
+.Products section div h5{
+    font-size: 15px;
+}
+.Products section div p{
+    font-size: 10px;
+}
+
+.Products section div{
+    background: linear-gradient(136deg, hsla(0, 0%, 96%, .96) 5.79%, hsla(0, 0%, 96%, .66));
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.Products section div button{
+    border-style: none;
+    background-color: transparent;
+    margin-left: 150px;
+    margin-top: 50px;
+  
+}
+.Partner {
+    padding-top: 50px;
+    text-align: center;
+  
+}
+.Partner p{
+    width: 85%;
+    font-size: 18px;
+    font-family: Georgia;
+    color: #545454;
+    padding-left: 180px;
+}
+.Partner h1 {
+    font-family: Georgia;
+    color: #737373;
+    font-size: 55px;
+}
+.Partner h1 span {
+    color: black !important;
+}
+.Partner section{
+    display: flex;
+}
+.Partner section div img{
+    width: 200px;
+    height: 80px;
+    
+}
+.Partner section {
+   
+   padding-left: 120px;
+
+}
+.Partner section div{
+    width: 250px;
+    height: 100px;
+  
+}
+.Partner h2{
+    margin-top: 60px;
+    font-family: Georgia;
+    color: #737373;
+    font-size: 50px;
+
+}
+.Partner h2 span{
+    color: black !important;
+}
+.one {
+    border-radius: 8px;
+    background: linear-gradient(225deg, #edcccf -14.3%, #f13d5d 111.27%);
+    width: 400px;
+    height: 400px;
+}
+
+.two{
+    border-radius: 8px;
+    background: linear-gradient(225deg, #cce8f9 -33.11%, #157cc8 121.05%);
+
+}
+.three {
+    border-radius: 8px;
+    background: linear-gradient(225deg, #c9b0f8 -7.17%, #7a59b4 104.72%);
+}

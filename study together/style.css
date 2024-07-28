@@ -1,0 +1,296 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    padding-top: 0px !important;
+}
+.navbar div video{
+    width: 118.5%;
+    padding: 0px;
+    /* position: relative; */
+    /* height: 700px; */
+    
+}
+.navbar div button{
+    padding: 6px 30px;
+    border-radius: 8px;
+    border: solid 1px transparent ;
+    margin-left: 20px;
+   
+}
+.navbar div button:hover{
+    background-color: transparent !important;
+    border: solid 1px white ;
+}
+.nav {
+    color:white !important;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+}
+.navbar-nav {
+    font-weight: bold;
+}
+.navbar div div ul li {
+    padding-left:20px ;
+    color: white !important;
+}
+.navbar div svg{
+    width: 15% !important;
+    height: 10% !important;
+    position: absolute;
+    top: 10px;
+    right: 1250px;
+}
+.navbar div h1{
+    position: absolute;
+    top: 250px;
+    right: 400px;
+    font-weight: bold;
+}
+.navbar div p{
+    position: absolute;
+    top: 550px;
+    right: 130px;
+    font-size: 20px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    width: 45%;
+    margin: auto;
+  
+}
+.video div {
+    padding-left: 15px;
+    
+    
+}
+
+.video div video{
+     width: 100%;
+     height: 250px;
+     object-fit: cover;
+   padding-bottom: 10px;
+    border-radius: 20px;
+}
+.studets section .one {
+    display: flex;
+    justify-content: center;
+}
+.studets section div div h2{
+    border-right: 2px dashed red;
+    height: 310px;
+    width: 50%;
+    
+   
+}
+.studets section div div {
+    padding-right: 50px;
+}
+.studets {
+    margin-bottom: 50px;
+}
+.two {
+    display: flex;
+    justify-content: center;
+    margin-left: 320px;
+}
+.three {
+    display: flex;
+    justify-content: center;
+   margin-left: 100px;
+}
+.four {
+    display: flex;
+    justify-content: center;
+    margin-left:210px;
+}
+.five {
+    display: flex;
+    justify-content: center;
+    margin-left:30px;
+}
+.ourteam section{
+   margin-left: 320px;
+   position: relative;
+   flex-wrap: wrap;
+}
+.ourteam section div {
+    border: solid 1px rgb(255, 255, 255);
+ 
+    width:35%;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: #f4eef5;
+    margin-top: 5px;
+}
+.management {
+   
+    position: absolute;
+    background-color: transparent !important;
+    top: 4170px;
+    /* left: 850px; */
+}
+.management div {
+    display: flex;
+    margin-bottom: 15px;
+}
+.management div div img{
+     margin-right: 40px; 
+}
+.awards{
+    margin-top: 200px;
+    background-color: #f4eef5;
+}
+.awards section   {
+    display: flex;
+ margin-left: 250px;
+ flex-wrap: wrap;
+
+  
+}
+.awards section  div {
+    padding-left: 50px;
+}
+.awards section  div img{
+    border: solid 1px transparent;
+    background-color: white;
+    border-radius: 50%;
+  
+   
+}
+.digital {
+   
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+.digital div{
+    margin-left: 50px;
+}
+footer {
+    margin-top: 100px;
+   
+}
+@media (max-width:1024px){
+    nav {
+        color:white !important;
+        /* position: absolute; */
+        top: 30px;
+        
+       
+    }
+
+}
+
+
+@media (max-width:700px){
+    .navbar div video{
+        /* width: 90.5%; */
+        padding: 0px;
+        position: relative;
+        /* height: ; */
+        /* top: 0; */
+        width: 130%;
+        
+    }
+}
+@media (max-width:590px){
+    .navbar div video{
+        /* width: 90.5%; */
+        padding: 0px;
+        position: relative;
+        /* height: ; */
+        /* top: 0; */
+        width: 150%;
+        
+    }
+}
+@media (max-width:508px){
+    .navbar div video{
+        /* width: 90.5%; */
+        padding: 0px;
+        position: relative;
+        /* height: ; */
+        /* top: 0; */
+        width: 170%;
+        
+    }
+}
+@media (max-width:525px){
+    .navbar div video{
+        /* width: 90.5%; */
+        padding: 0px;
+        position: relative;
+        /* height: ; */
+        /* top: 0; */
+        width: 190%;
+        
+    }
+}
+@media (max-width:428px){
+    .navbar div video{
+        /* width: 90.5%; */
+        padding: 0px;
+        position: relative;
+        /* height: ; */
+        /* top: 0; */
+        width: 210%;
+        
+    }
+}
+@media (max-width:383px){
+    .navbar div video{
+        /* width: 90.5%; */
+        padding: 0px;
+        position: relative;
+        /* height: ; */
+        /* top: 0; */
+        width: 230%;
+        
+    }
+}
+@media (max-width:327px){
+    .navbar div video{
+        /* width: 90.5%; */
+        padding: 0px;
+        position: relative;
+        /* height: ; */
+        /* top: 0; */
+        width: 250%;
+        
+    }
+}
+@media (max-width:327px){
+    .navbar div video{
+        /* width: 90.5%; */
+        padding: 0px;
+        position: relative;
+        /* height: ; */
+        /* top: 0; */
+        width: 270%;
+        
+    }
+}
+@media (max-width:1496px){
+    .navbar div svg{
+        width: 15% !important;
+        height: 10% !important;
+        position: absolute;
+        /* top: 10px; */
+        /* right: 1250px; */
+    }
+}
+@media (max-width:1400px){
+    .nav {
+        color:white !important;
+        /* position: absolute; */
+        /* top: 30px; */
+        /* left: 600px; */
+        margin: 0px;
+    }
+}

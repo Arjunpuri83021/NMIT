@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.home1 div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px !important;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}   
+.home2 {
+    display: flex;
+    justify-content: space-between;
+}
+   
+.home2 div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  
+    margin-right: 10px;
+    font-size: 20px;
+}
+.home2 div img {
+    padding-left: 650px;
+    height: 100px;
+}
+.home2 div h6{
+
+  padding-right: 10px;    
+  padding-left: 10px;
+}
+.navbar nav{
+    margin-top: 5px;
+}
+   
+.navbar nav ul {
+ padding-left: 400px;
+  justify-content: center;   
+  list-style: none; 
+  padding-right: 300px;
+
+  
+}
+ .navbar nav ul li{
+   
+    padding-left: 10px;
+    text-transform: uppercase;
+   
+ }
+ .home3  img{
+    width: 100%;
+    object-fit: cover;
+ }
+ .home4 img{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+ }
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+ }
+ .home5 {
+    display: flex;
+    justify-content: center;
+ }
+ .home5 div{
+    padding-left: 10px;
+ }
+ .home5 div p{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+ }
+ .home6 {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+ }
+.home6 div img{
+    object-fit: cover;
+    height: 150px;
+} 
+
+.home6 div form button{
+    background-color: black;
+    color: white;
+    margin-top: 7px;
+   padding: 5px 120px 5px 120px;
+} 
+.home6 div form input{
+    padding: 3px 72px 3px 72px;
+}
+.home6 div form button:hover{
+    background-color: rgb(255, 153, 0);
+}
+.home7 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.home7 nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: bold;
+    font-size: 20px;
+}
+.home7 nav ul li img{
+    height: 25px;
+}
+.home8 {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between ;
+    color: white;
+    background-color: black;
+}
+.home8 div {
+    display: flex;
+    justify-content: space-between;
+}

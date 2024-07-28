@@ -1,0 +1,403 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar video{
+     object-fit: cover;
+    position: relative;
+}
+.navbar button:hover{
+    background-color: transparent !important;
+    border: solid 1px white !important;
+}
+.chat {
+    width: 50%;
+    position: absolute; 
+    top: 150px; 
+    left: 160px;
+}
+.meet{
+    font-size: 60px;
+}
+.jion{
+    width: 75%;
+}
+.now  button:hover{
+    background-color: transparent !important;
+    border: solid 1px white !important;
+    color: white !important;;
+}
+.free {
+    display: flex;
+    margin-top: 30px;
+}
+
+.free p{
+    background-color: rgba(255, 255, 255, .3);
+    color: white;
+    padding: 7px 12px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 10px;
+    border: transparent;
+}
+.session a:hover{
+    opacity: 0.5 !important;
+}
+
+.discord div{
+    flex-wrap: wrap;
+    padding-left: 60px; 
+    color: #9656a1;
+    
+}
+.discord {
+    flex-wrap: wrap;
+}
+.discord div strong{
+    font-size: 60px;
+}
+.Discover {
+    margin-top:120px; 
+}
+.Discover h1 {
+    text-align: center;
+}
+.Together{
+     display: flex;
+    justify-content: center;
+   
+   
+}
+.Together div{
+   
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Together div h5 {
+    text-align: center;
+}
+.Together div img{
+    width:384px;
+     height:250px;
+}
+.fulness {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.fulness div{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fulness  div h5 {
+    text-align: center;
+}
+.fulness div img{
+    width: 384px;
+    height: 250px;
+}
+.out {
+    margin-top: 40px;
+    margin-left: 650px;
+    margin-bottom: 120px;
+   
+}
+.out a button{
+    background-color:rgb(246, 105, 70);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 7px 45px;
+    border-radius: 8px;
+}
+.out a button:hover{
+    background-color:transparent;
+    border: solid 2px rgb(246, 105, 70) !important;
+    color: rgb(246, 105, 70);
+}
+.find{
+    background-image:  linear-gradient(#f4eef5, #fff);
+    
+}
+.find p{
+    padding-top: 80px;
+    color: rgb(246, 105, 70);
+    text-align: center;
+    
+}
+.find h2 {
+   padding-bottom: 40px;
+   font-weight: bold;
+   text-align: center;
+   width: 40%;
+   margin: auto;
+} 
+.stronger {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+.stronger div{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.good img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;  
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+}
+.Imagine h6{
+    font-size: 20px;
+}
+
+.Imagine a{
+    color: rgb(246, 105, 70);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 15px;
+}
+.Imagine a:hover{
+  opacity: 0.5;
+}
+  .progress marquee{
+    width: 1520px;
+   
+}
+.online{
+    background-image:  linear-gradient(#f4eef5, #fff);
+}  
+.online p{
+    padding-top: 80px;
+    color: rgb(246, 105, 70);
+    text-align: center;
+  
+    
+}
+.online h3 {
+    text-align: center;
+}
+.support {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    
+    
+}
+.support div{
+    padding-left: 100px;
+    text-align: center;
+}
+.support div img{
+    border-radius: 50%;
+}
+.support div h4{
+    padding-top: 20px;
+}
+.support div p {
+    padding-top: 20px;
+}
+.support div button{
+    color: rgb(246, 105, 70);
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+.support div button:hover{
+    color: rgb(246, 105, 70);
+    font-weight: bold;
+    border: none;
+    margin-top: -1px;
+    background-color: transparent;
+    opacity: 0.5;
+}
+.one img{
+    position: absolute;
+    background-color: white;
+    padding: 30px;
+     left: 80px;
+}
+.two img{
+    position: absolute;
+    background-color: white;
+    padding: 25px;
+    top: 100px;
+    right: 740px;
+}
+
+
+
+
+@media (max-width:1450px){
+   .navbar{
+    right: 0px !important;
+   }
+}
+@media (max-width:320px){
+    .navbar video{
+       width: 340px !important;
+         object-fit: cover;
+       position: relative;
+   }
+}
+
+
+@media (max-width:320px) {
+    .chat {
+        position: absolute;
+        left: 1px;
+        top: 160px;
+        text-align: center;
+        width: 100% !important;
+        
+    }    
+    .meet {
+        font-size: 45px;
+        text-align: center;
+        left: 1px;
+        width: auto !important;
+    } 
+    .jion{
+        
+        text-align: center;
+        width: 100%;
+    } 
+    .Discover h1 {
+        font-size: 30px;
+        font-weight: bold;
+    padding-bottom: 60px;
+    font-size: 29px;
+     text-align: center;
+     padding-left: 20px;
+
+    }
+    .Together div h6{
+        width: 300px;
+        
+    }
+    .Together div h5{
+        width: 300px;
+        text-align: center;
+        
+    }
+    .Together {
+        display: block;
+    }
+    .Together div img{
+        width: 288px;
+    }
+    .fulness div h6{
+        width: 300px;
+        
+    }
+    .fulness div h5{
+        width: 300px;
+        text-align: center;
+        
+    }
+    .fulness{
+        display: block;
+    }
+    .fulness div img {
+        width: 288px;
+        height: 200px;
+    }
+    .free {
+        display: flex;
+        margin-top: 30px;
+       margin-left: 50px;
+    }
+    .out {
+        margin-top: 30px;
+        margin-left: 60px;
+       
+    }
+    .find p{
+        padding-top: 80px;
+        color: rgb(246, 105, 70);
+        text-align: center;
+        
+        
+    }
+    .find h2 {
+        padding-bottom: 40px;
+        font-weight: bold;
+        text-align: center ;
+        width: 70%;
+        margin: auto !important;
+       
+     } 
+     .stronger {
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        
+    }
+    .good img{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;  
+        width: 220px;
+        height: 150px;
+        border-radius: 8px;
+    }
+    .Imagine h6{
+        font-size: 20px;
+        text-align: center;
+    }
+    .Imagine a{
+        color: rgb(246, 105, 70);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        padding-right: 15px;
+    }
+    .online p{
+        padding-top: 80px;
+        color: rgb(246, 105, 70);
+        text-align: center;
+        width: 50%;
+        margin: auto;
+      
+        
+    }
+    .online h3 {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+      .support {
+        display: block;
+      }
+    .support div{
+        padding-left: 1px;
+        text-align: center;
+     
+    }
+    .support div p {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .one img{
+        position: absolute;
+        background-color: white;
+        padding: 30px;
+        top: 1px;
+         left: -20px;
+    }
+    .two img{
+        position: absolute;
+        background-color: white;
+        padding: 25px;
+        top: 580px;
+        right: 130px;
+    }
+    
+}

@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.home1 div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px !important;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}   
+.home2 {
+    display: flex;
+    justify-content: space-between;
+}
+   
+.home2 div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  
+    margin-right: 10px;
+    font-size: 20px;
+}
+.home2 div img {
+    padding-left: 650px;
+    height: 100px;
+}
+.home2 div h6{
+
+  padding-right: 10px;    
+  padding-left: 10px;
+}
+.navbar nav{
+    margin-top: 5px;
+}
+   
+.navbar nav ul {
+ padding-left: 400px;
+  justify-content: center;   
+  list-style: none; 
+  padding-right: 300px;
+
+  
+}
+ .navbar nav ul li{
+   
+    padding-left: 10px;
+    text-transform: uppercase;
+   
+ }

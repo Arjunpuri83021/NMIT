@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.join{
+    background-color: #f2dd22;
+    padding: 13px 0px;
+    text-align: center;
+}
+.join a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+   
+}
+.navbar  {
+    background-color: #1a68d3;
+    background-image: radial-gradient(ellipse at bottom, #1a68d3 5%, transparent 60%), linear-gradient(136deg, transparent, #71c7ee 290%), linear-gradient(115deg, #9d9af1, transparent 40%), linear-gradient(180deg, transparent 0, #1a68d3 70%), radial-gradient(ellipse at -70% -180%, transparent 80%, #71c7ee 0), radial-gradient(ellipse at bottom, #1a68d3 40%, transparent 80%), radial-gradient(ellipse at 5% 340%, transparent 80%, #bfc2f4 0);
+
+  
+  
+}
+.navbar div nav ul li{
+   
+   border-radius: 24px;
+   margin-left: 5px;
+   margin-right: 5px;
+   
+  
+}
+.navbar div ul li:hover{
+    background-color:rgb(131, 129, 129);
+}
+.navbar div nav ul li button{
+    margin-top: 4px;
+}
+.start{
+    background-color: #1a68d3;
+    background-image: radial-gradient(ellipse at bottom, #1a68d3 5%, transparent 60%), linear-gradient(136deg, transparent, #71c7ee 290%), linear-gradient(115deg, #9d9af1, transparent 40%), linear-gradient(180deg, transparent 0, #1a68d3 70%), radial-gradient(ellipse at -70% -180%, transparent 80%, #71c7ee 0), radial-gradient(ellipse at bottom, #1a68d3 40%, transparent 80%), radial-gradient(ellipse at 5% 340%, transparent 80%, #bfc2f4 0);
+}
+
+    
+    
+      
+

@@ -1,0 +1,333 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    border: solid 1px black;
+}
+.start {
+   
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom:30px ;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.start  div nav ul{
+    cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.start div nav ul li{
+    list-style: none;
+    padding-left: 100px;
+} 
+.start div nav ul li:hover{
+    color: red;
+}
+.icon {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.icon i{
+    font-size: 15px;
+    padding-right: 10px;
+    color: red;
+}
+.icon h3{
+    font-size: 25px;
+}
+.start div i{
+    padding-left:5px ;
+    font-size: 20px;
+}
+.start div{
+    padding-left:30px;
+}
+.pic div img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+.pic div{
+    text-transform: uppercase;
+}
+.pic div h1{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: rgb(192, 60, 19);
+    font-size: 30px;
+}
+.pic div h1 span{
+    color: rgb(2, 2, 61);
+}
+.pic section div{
+     padding-left: 20px;
+    position: absolute;
+    top: 320px;
+    left: 180px;
+}
+.pic section div button{
+    background-color: rgb(2, 3, 58);
+    color: white;
+    border-style: none;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.business{
+    width: 70%;
+    margin: auto;
+    display: flex;
+   justify-content: center;
+}
+.business div{
+    padding-left: 30px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.business div h2{
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.business div h2 span{
+    color: red;
+}
+.business div p button{
+    padding:5px 15px 5px 15px;
+    background-color: rgb(206, 42, 30);
+    color: white;
+}
+.business div video{
+    padding-left: 50px;
+    height: 330px;
+}
+.industry img{
+    position: relative;
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      visibility: 0.5;
+}
+.industry h1{
+ position: absolute;
+ top: 95%;
+ left: 45% ;
+ font-weight: bold;
+ font-size: 40px;
+ text-transform: uppercase;
+}
+.industry  section {
+    position: absolute;
+    top: 105%;
+    left: 27%;
+    display: flex;
+  justify-content: center;
+}
+.industry section div{
+    padding-left: 5px;
+    padding-top: 20px;
+}
+.industry section div h3{
+    color: rgb(21, 21, 141);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.industry section div p{
+    padding-bottom: 20px;
+}
+.second{
+    color: white ;
+    background-color: rgb(37, 53, 126)!important ;
+}
+.second h3{
+    color: white !important;
+}
+.industry section div{
+    background-color: white;
+}
+
+.industry section div {
+  text-align: center; 
+}
+.industry section div i{
+    color: rgb(172, 32, 7);
+    font-size: 30px;
+}
+.home5{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.home5 h2{
+    padding-top: 20px;
+    font-size: 50px;
+    color: brown;
+    
+}
+.home5 h1{
+    font-size: 30px;
+    font-weight: bold ;
+    color: rgb(46, 46, 139);
+}
+.home5 p{
+    padding: 10px 150px 10px 150px ;
+    
+}
+.home5 section{
+    display: flex;
+    justify-content: center;
+}
+.home5 div img{
+    padding-left: 10px;
+    clip-path: circle(50px);
+   
+    width: 100px;
+}
+.home5 h4{
+    font-size: 20px;
+    color: rgb(52, 52, 151);
+}
+.home5 h4 span{
+    color: yellow;
+    font-size: 30px;
+   
+}
+.home6{
+    padding-top: 30px;
+
+}
+.home6 img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.home6 h1{
+    position:absolute;
+     font-size: 40px;
+    text-align: center;
+     top: 190%;
+     left: 850px;
+     color: white;
+    
+}
+.home6 section{
+    position: absolute;
+    display: flex;
+   justify-content: space-around;
+   top: 200%;
+   left: 550px;
+   
+ 
+}
+.home6 section div{
+   
+    padding-left: 50px;
+    background-color: white;
+    
+   
+}
+.home6 section div h4{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.home6 section div h5{
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+.home6 section div h5 span{
+    color: rgb(255, 72, 0);
+    font-size: 40px;
+}
+.home6 section div button{
+    background-color: rgb(3, 3, 88);
+    color: white;
+    border-style: none;
+    text-align: center;
+    margin: 10px auto 20px 20px;
+    
+    padding: 5px 15px 5px 15px
+}
+.b1 button{
+    background-color:rgb(255, 72, 0) !important;
+}
+.home7 h2{
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(3, 3, 85);
+}
+.home7 section{
+    display: flex;
+    justify-content: center;
+    
+}
+.home7 section div{
+    display: flex;
+    justify-content: center;
+   
+ 
+   
+    
+}
+.home7 section div div{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 50%;
+    
+    
+}
+.home7 section div div img{
+    width: 200px;
+    margin: auto;
+   
+}
+.home7 section div div h2{
+    font-size: 30px;
+    padding: right 100px;
+    padding-left: -200px;
+}
+.home8{
+    background-color: #0d2034;    ;
+    color: white;
+
+}
+.home8 h2{
+    color: rgb(173, 29, 9);
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+}
+.home8 section{
+    display: flex;
+    justify-content: space-around;
+}
+.home8 section div h4{
+    font-weight: bold;
+}
+.home8 section div i{
+    color: rgb(173, 29, 9);
+}
+.home8 section div h6 {
+    font-size: 20px;
+    
+}
+.home8 section div button{
+   background-color: rgb(158, 45, 4);
+   display: flex;
+   justify-content: center;
+   padding: 5px 100px 5px 100px;
+   border-style: none;
+   color: white;
+}

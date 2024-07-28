@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.icon {
+    display: flex;
+    justify-content: space-around;
+    background-color: #273272;
+}
+.icon div{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.icon div a{
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar div img {
+   padding-left:  150px;
+    position: relative;
+}
+.home1 div img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+
+}
+
+.set {
+    width: 20%;
+    position: absolute;
+    top: 180px;
+    left: 180px;  
+}
+.set h1{
+    font-size: 60px;
+}
+.set button{
+     border: solid 1px rgb(225, 13, 144);
+    background-color: rgb(218, 37, 155);
+    color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.set button:hover{
+    background-color: white;
+    color: rgb(225, 13, 13);
+    font-weight: bold;
+}
+.home2{
+    background-image: url("https://www.thedevelopershouse.com/wp-content/uploads/2023/10/infgo.png");
+}
+.home2 section{
+    display: flex;
+    justify-content: space-around;
+}
+.home2 section div{
+    display: flex;
+    justify-content: space-around;
+
+}
+.home2 h1{
+    text-align: center;
+}
+.home2 p{
+    text-align: center;
+    width: 80%;
+    padding-left: 230px;
+}
+
+.home2 section div img{
+    width: 80%;
+   height: 100px;
+   
+}
