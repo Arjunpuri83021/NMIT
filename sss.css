@@ -1,0 +1,827 @@
+Copy code
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0);
+    width: 65%;
+    float: right;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar button {
+    border: solid 1px transparent;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: 0.7s;
+    margin-bottom: 10px;
+}
+
+.navbar ul li a {
+    color: white !important;
+    font-size: 14px;
+}
+
+.navbar ul li a:hover {
+    color: aqua !important;
+}
+
+.navbar button:hover {
+    border-color: white !important;
+    background-color: transparent;
+}
+
+.we_are {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.we_are div {
+    width: 100%;
+}
+
+.we_are div video {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.text {
+    position: absolute;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    top: 200px;
+    z-index: 1;
+}
+
+.text h1,
+.text span {
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+}
+
+.text p {
+    margin-top: 40px;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+.meet {
+    width: 70%;
+    margin: auto;
+    padding-top: 700px; /* Adjusted for responsiveness */
+    text-align: center;
+}
+
+.meet h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.meet p {
+    font-size: 17px;
+    margin-top: 20px;
+    color: black;
+}
+
+.vid {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 380px;
+}
+
+.vid section {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly !important;
+}
+
+.vid section div {
+    width: 95%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.vid section video {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#div1 {
+    margin-top: 150px;
+}
+
+.our {
+    padding-top: 70px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.our p {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+#1 {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.col-6 {
+    padding: 0 20px;
+    margin-top: 80px !important;
+}
+
+.p-2 {
+    text-align: left;
+    padding: auto 20px;
+}
+
+.p-2 p {
+    font-size: 20px;
+}
+
+.p-2 img {
+    margin-top: 50px;
+}
+
+#3 {
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+
+.p-3 {
+    text-align: left;
+    padding: auto 20px;
+}
+
+.p-3 p {
+    font-size: 20px;
+}
+
+.p-3 img {
+    height: 300px;
+    width: 400px;
+}
+
+#5 {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.p-5 {
+    text-align: left;
+    padding: auto 20px;
+    padding-right: 10px;
+}
+
+.p-5 p {
+    font-size: 20px;
+}
+
+.p-5 img {
+    height: 300px;
+    width: 400px;
+}
+
+#n1,
+#n2,
+#n3,
+#n4,
+#n5 {
+    position: absolute;
+    top: -50px;
+    left: 95%;
+    background-color: rgb(128, 128, 128);
+    padding: 5px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.block {
+    display: none;
+}
+
+.block section {
+    width: 320px;
+    margin: auto;
+}
+
+.block section div {
+    text-align: center;
+    width: 320px;
+    margin: auto;
+    margin: 50px auto;
+}
+
+.block section div img {
+    width: 280px;
+    height: 200px;
+}
+
+.block section div h1 {
+    padding: 10px 15px;
+    background-color: rgba(128, 128, 128, 0.277);
+    width: 60px;
+    margin-left: 49%;
+    border-radius: 10px;
+}
+
+.block section div h5 {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.team h3 {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.team p {
+    font-size: 22px;
+}
+
+#hyp {
+    background-color: transparent !important;
+    padding: 25px 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: solid 0.5px transparent;
+    width: 400px;
+}
+
+#hyp a {
+    color: black;
+    text-decoration: none;
+}
+
+#hyp a p {
+    font-size: 20px;
+}
+
+#hyp:hover {
+    background-color: transparent !important;
+    border: solid 0.5px rgba(128, 128, 128, 0.214);
+}
+
+.p-3 div video {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.p-4 div video {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.scrol {
+    padding: 50px 0px;
+}
+
+#first,
+#second,
+#third {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#first div,
+#second div,
+#third div {
+    width: 100%;
+    height: auto;
+    margin: 50px 10px;
+    text-align: center;
+}
+
+#first div div img,
+#second div div img,
+#third div div img {
+    width: 60%;
+    margin: auto;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#first div div,
+#second div div,
+#third div div {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#first div p,
+#second div p,
+#third div p {
+    font-size: 13px;
+}
+
+footer {
+    width: 85%;
+    margin-right: 5%;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+footer a:hover {
+    color: red;
+}
+
+#foot {
+    width: 100px;
+    display: flex;
+}
+
+#foot div {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.255);
+    margin: 5px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: solid 0.5px rgba(128, 128, 128, 0.466);
+    transition: 0.5s;
+}
+
+#foot div:hover {
+    background-color: white !important;
+}
+
+#foot i {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+#mfoot {
+    display: flex;
+    width: 280px;
+    margin-left: 20px;
+}
+.mfooter{
+    display: none;
+}
+.mfooter a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+.mfooter a:hover {
+    color: red;
+}
+
+#mfoot i {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+#mfoot h6 {
+    padding-left: 20px;
+}
+
+#mfoot div {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(128, 128, 128, 0.255);
+    margin: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border: solid 0.5px rgba(128, 128, 128, 0.466);
+    transition:}
+    @media(max-width:320px)
+{
+    .we_are div video{
+        width: 320px;
+        height: 500px;
+    }
+    .text{
+        
+        width: 320px !important;
+        margin: auto;
+        float: right ;
+    }
+    .text h1 ,span{
+        font-size: 44px;
+        line-height: 48px;
+        
+    }
+    .text p{
+        font-size: 11px;
+    }
+    .we_are div{
+        width: 320px;
+        
+        top: 30px;
+    }
+    .meet h2{
+        font-size: 30px;
+    }
+    .vid{
+        width: 320px;
+    }
+    .vid section{
+        width: 320px;
+        display: block;
+    }
+    
+    #div2{
+        padding-top: 127px;
+    }
+    #div2 div{
+        height: 200px;
+        width: 300px;
+        margin: auto;
+    }
+    #div1 div{
+        height: 200px;
+        width: 300px;
+        margin: auto;
+    }
+    .div3{
+       padding-top: 306px;
+    }
+
+    .vid section video{
+        height: 180px;
+        width: 270px;
+        margin: auto;
+    }
+
+    .our{
+        width: 320px;
+    }
+    .our span{
+        font-size: 16px;
+    }
+    .our p{
+        font-size: 35px;
+    }
+    .cl{
+        display: none;
+    }
+    .cls{
+        display: none;
+    }
+    .cla{
+        display: none;
+    }
+    .block{
+        display: block;
+    } 
+    .block div{
+        width: 290px;
+    }
+    .team{
+        width: 320px;
+    }
+    #p3{
+        width: 300px;
+        text-align: center;
+    }
+    #p3 h3{
+        font-weight: bolder;
+    }
+    #p3 p{
+        font-size: 20px;
+    }
+    #hyp{
+        width: 320px;
+        float: left;
+        
+    }
+    #vidhov{
+        width: 160px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .p-3 div video{
+        width: 160px;
+    }
+    .p-4 div video{
+        width: 160px;
+        float: left;
+    }
+
+    #first{
+        width: 300px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    #first div{
+        width: 280px;
+        text-align: center;
+    }
+    #first div div{
+        width: 260px;
+    }
+
+    #second{
+        width: 300px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    #second div{
+        width: 280px;
+        text-align: center;
+    }
+    #second div div{
+        width: 260px;
+    }
+
+    #third{
+        width: 300px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    #third div{
+        width: 280px;
+        text-align: center;
+    }
+    #third div div{
+        width: 260px;
+    }
+    
+    .the{
+        width: 300px;
+        margin: -50px 0px 0px -50px;
+        border: none;
+    }
+    .the .p-3{
+        width: 260px;
+        text-align: center;
+        margin: 0px;
+        float: left;
+    }
+    .the h5{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .the #ppp{
+        display: none
+
+    }
+    .par{
+        display: block;
+        width: 280px;
+        float: left;
+        text-align: center;
+        margin-top: -50px;
+    }
+    .par p{
+        font-size: 15px;
+        padding-right: 30px;
+    }
+    footer{
+        display: none;
+    }
+    .mfooter{
+        display: block;
+    }
+}
+
+
+
+
+
+@media(max-width:240px)
+{
+    .we_are div video{
+        width: 240px;
+        height: 500px;
+    }
+    .text{
+        
+        width: 240px !important;
+        margin: auto;
+        float: right ;
+    }
+    .text h1 ,span{
+        font-size: 40px;
+        line-height: 45px;
+        
+    }
+    .text p{
+        font-size: 10px;
+    }
+    .we_are div{
+        width: 240px;
+        
+        top: 30px;
+    }
+    .meet h2{
+        font-size: 30px;
+    }
+    .vid{
+        width: 240px;
+    }
+    .vid section{
+        width: 240px;
+        display: block;
+    }
+    
+    #div2{
+        padding-top: 127px;
+    }
+    #div2 div{
+        height: 180px;
+        width: 240px;
+        margin: auto;
+    }
+    #div1 div{
+        height: 180px;
+        width: 240px;
+        margin: auto;
+    }
+    .div3{
+       padding-top: 306px;
+    }
+
+    .vid section video{
+        height: 160px;
+        width: 230px;
+        margin: auto;
+    }
+
+    .our{
+        width: 240px;
+    }
+    .our span{
+        font-size: 16px;
+    }
+    .our p{
+        font-size: 35px;
+    }
+    .cl{
+        display: none;
+    }
+    .cls{
+        display: none;
+    }
+    .cla{
+        display: none;
+    }
+    .block{
+        display: block;
+    } 
+    .block div{
+        width: 240px;
+    }
+    .team{
+        width: 240px;
+    }
+    #p3{
+        width: 240px;
+        text-align: center;
+    }
+    #p3 h3{
+        font-weight: bolder;
+    }
+    #p3 p{
+        font-size: 20px;
+    }
+    #hyp{
+        width: 240px;
+        float: left;
+        
+    }
+    #vidhov{
+        width: 160px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .p-3 div video{
+        width: 160px;
+    }
+    .p-4 div video{
+        width: 160px;
+        float: left;
+    }
+
+    #first{
+        width: 240px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    #first div{
+        width: 240px;
+        text-align: center;
+    }
+    #first div div{
+        width: 240px;
+    }
+
+    #second{
+        width: 240px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    #second div{
+        width: 240px;
+        text-align: center;
+    }
+    #second div div{
+        width: 240px;
+    }
+
+    #third{
+        width: 240px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    #third div{
+        width: 240px;
+        text-align: center;
+    }
+    #third div div{
+        width: 200px;
+    }
+    
+    .the{
+        width: 240px;
+        margin: -50px 0px 0px -50px;
+        border: none;
+    }
+    .the .p-3{
+        width: 230px;
+        text-align: center;
+        margin: 0px;
+        float: left;
+    }
+    .the h5{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .the #ppp{
+        display: none
+
+    }
+    .par{
+        display: block;
+        width: 230px;
+        float: left;
+        text-align: center;
+        margin-top: -50px;
+    }
+    .par p{
+        font-size: 15px;
+        padding-right: 30px;
+    }
+    footer{
+        display: none;
+    }
+    .mfooter{
+        display: block;
+    }
+}
