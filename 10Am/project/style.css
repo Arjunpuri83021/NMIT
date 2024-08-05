@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-bar ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.nav-bar ul li{
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-bar ul li:hover{
+    background-color: black;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.bg-img img{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    height: 550px;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    opacity: 90%;
+}
+
+.bg-img div{
+    position: absolute;
+    left: 44%;
+    top: 48%;
+    color: aliceblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.cards div{
+    width: 30%;
+}
+.cards div img{
+    width: 99%;
+    height: 250px;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 10px;    
+}
+
+.cards div h1{
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 20px;
+    color: #27110f;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
+
+.cards div p{
+    color: #27110f;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+
+}
+
+.cards div button{
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: #ffff;
+    border-radius: 10px;
+    margin-top: 10px !important;
+    display: flex;
+    margin: auto;
+}
+
+.study{
+    background: rgb(255,142,60);
+background: linear-gradient(0deg, rgba(255,142,60,1) 0%, rgba(229,49,112,1) 100%);
+    color: #ffff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.study div{
+    width: 48%;
+    margin: auto;
+   padding: 80px 0px;
+}
+
+.study h1{
+    letter-spacing: 0;
+    text-indent: 0;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+.study button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #ff6f61;
+    border-radius: 12px;
+    border: none;
+}
+
+.new-sec{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.new-sec div h3{
+    color: rgb(36, 147, 211);
+    font-size: 28px;
+}
+
+.new-sec-div{
+    width: 33%;
+}
+.new-sec div p{
+    color: gray;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+.new-sec div div {
+    margin-top: 30px;
+}
+
+.new-sec div div h5{
+  font-size: 25px;
+  color: rgb(118, 173, 36);
+  font-weight: 500;
+}
+
+.new-sec div div p{
+    color: black;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10px;
+}

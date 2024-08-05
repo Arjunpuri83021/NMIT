@@ -4,6 +4,14 @@
     margin: 0px;
 }
 
+
+.navbar-fixed{
+    position: fixed;
+    background-color: #ffff !important;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 100;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -34,4 +42,96 @@
 width: 100%;
 height: 650px;
 object-fit: cover;
+margin-top: 60px;
+position: relative;
+}
+
+.burger-bg h3{
+    font-size: 30px;
+    letter-spacing: 5px;
+   color: rgb(137, 133, 131);
+   position: absolute;
+   top: 92%;
+   left: 3%;
+   font-weight: 500px;
+
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 60px auto;
+    
+}
+
+.about div{
+    width: 48%;
+}
+
+.about div img{
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 70%;
+}
+
+.about-content h4{
+
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+
+}
+
+.about-content span{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    display: block;
+    text-align: center;
+}
+
+.about-content p{
+    font-size: 18px;
+    font-family: "Times New Roman", Georgia, Serif;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.contact-forms h1{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.contact-forms p{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+}
+
+.contact-forms span{
+    color: #607d8b!important;
+    font-size: 18px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.contact-forms form{
+    width: 60%;
+}
+.contact-forms form p input{
+    border: none;
+    border-bottom: solid 1px black;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+::placeholder{
+    color: red;
+    padding-left: 50px;
 }

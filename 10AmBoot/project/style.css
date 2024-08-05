@@ -1,0 +1,52 @@
+
+.navbar{
+    background-color: rgb(8, 66, 105) !important;
+
+}
+
+.navbar-nav a{
+
+    margin: 20px 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navbar-nav a i{
+    font-size: 30px;
+}
+
+
+.new-nav{
+    display: none;
+}
+
+.dropdown-item::after{
+    content: "hello arjun";
+    padding-left: 100px;
+}
+
+
+
+
+h5::after{
+    content: " goswami";
+    color: blue;
+}
+
+
+h5::before{
+    content: "hello i am ";
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+

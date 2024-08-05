@@ -5,95 +5,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+<style>
+    .section-one{
+     border: solid 1px black;
+     text-align: center;
+     padding: 50px 80px;
+     background-color: red;
+     color: #ffff;
+     border-radius:20px;
+    }
+   .section-two{
+    border: solid 1px black;
+     text-align: center;
+     padding: 50px 80px;
+     background-color: rgb(0, 255, 38);
+     color: #ffff;
+   }
 
-<link rel="stylesheet" href="style.css">
+   .section-three{
+    border: solid 1px black;
+     
+     text-align: center;
+     padding: 50px 80px;
+     background-color: rgb(0, 13, 255);
+     color: #ffff;
+   }
+
+   #main-sec{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+   }
+
+   .all-forms{
+      background-color: rgb(8 41 74);
+      color: #ffff;
+      width: 60%;
+      margin: auto;
+      box-shadow: rgba(0, 0, 0, 21.35) 0px 12px 21px;
+   }
+   .all-forms ul{
+     display: flex;
+     justify-content: space-between;
+     width: 40%;
+     margin: 30px auto;
+     list-style: none;
+     text-transform: uppercase;
+     padding-top: 20px;
+   }
+
+   .all-forms ul li{
+     transition: 1s;
+     font-weight: bold;
+     padding: 10px;
+   }
+
+   .all-forms ul li:hover{
+      color: rgb(207, 72, 14) !important;
+      background-color: #ffff;
+      border-radius: 10px;
+      
+   }
+
+
+
+   .all-forms form{
+      width: 45%;
+   }
+
+   .all-forms form div input{
+      margin-left: 10px;
+      padding: 7px;
+      margin-top: 8px;
+      border-radius: 10px;
+      border: none;
+      background-color: rgb(35 69 103);
+   }
+
+   .all-forms form textarea{
+      width: 88%;
+      margin-left: 10px;
+      padding: 5px 0px 30px 5px;
+      background-color: rgb(35 69 103);
+      margin-top: 8px;
+      border-radius: 10px;
+      border: none;
+   }
+
+   .all-forms form button{
+      margin-left: 10px;
+      margin-top: 10px;
+      background-color: rgb(207, 72, 14);
+      border: none;
+      padding: 7px 15px;
+      color: #ffff;
+      border-radius: 10px;
+      text-transform: uppercase;
+   }
+
+   ::placeholder{
+      color: #ffff;
+   }
+
+   h1{
+      padding: 0px;
+      margin: 0px;
+   }
+
+   .contact-form{
+      display: flex;
+      justify-content: space-around;
+   
+   }
+
+   .contact-form div{}
+
+</style>
+
 </head>
 <body>
-    <h1>This Is register Form</h1>
-    <form class="reg-form" action="">
-        <label for="">Name</label>
-        <input type="text">
-        <label for="">Email</label>
-        <input type="email" name="" id="">
-        <label for="">Passowrd</label>
-        <input type="password" name="" id="">
-        <div>
-        <button>Submit</button>
-        </div>
-    </form>
+  
+    <section id="main-sec">
+  
+ <div class="section-one">
+    <h1>1</h1>
+ </div>   
+
+ <div class="section-two">
+    <h1>2</h1>
+ </div>
+
+ <div class="section-three">
+    <h1>3</h1>
+ </div>
+</section>
+
+
+<section class="all-forms">
+   <ul>
+      <li style="color: #ffff;">Home</li>
+      <li>Blog</li>
+      <li>About</li>
+      <li>Contact</li>
+   </ul>
+     
+   <div class="contact-form">
+
+   <form action="">
+      <div>
+      <input placeholder="First Name" type="text" name="" id="">
+      <input placeholder="Last Name" type="text" name="" id="">
+   </div>
+
+   <div>
+      <input placeholder="Mail" type="text" name="" id="">
+      <input placeholder="Phone" type="text" name="" id="">
+   </div>
+
+   <textarea placeholder="Message" name="" id=""></textarea>
+
+   <button>Submit</button>
+
    
+   </form>
+
+   <div>
+      <h1>Contact information</h1>
+     
+   </div>
+
+   </div>
 
 
+</section>
 
-   
-    <!-- <table style="border: solid 1px black;">
-        <thead>
-            <tr>
-                <th style="border: solid 1px black; color: red;">S No.</th>
-                <th style="border: solid 1px black;">Name</th>
-                <th style="border: solid 1px black;">Age</th>
-                <th style="border: solid 1px black;">City</th>
-            </tr>
-        </thead>
-         
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Arjun</td>
-                <td>24</td>
-                <td>Jaipur</td>
-            </tr>
-
-            <tr>
-                <td>1</td>
-                <td>Arjun</td>
-                <td>24</td>
-                <td>Jaipur</td>
-            </tr>
-
-            <tr>
-                <td>1</td>
-                <td>Arjun</td>
-                <td>24</td>
-                <td>Jaipur</td>
-            </tr>
-
-            <tr>
-                <td>1</td>
-                <td>Arjun</td>
-                <td>24</td>
-                <td>Jaipur</td>
-            </tr>
-        </tbody>
-
-
-
-    </table> -->
-
-
-
-    <!-- <form action="">
-        <label for="">Enter Your Name</label>
-        <input placeholder="Name Like 'ArjunPuri'" required type="text">
-         <br>
-         <br>
-        <label for="">Email</label>
-        <input required type="email">
-        <br>
-        <br>
-        <label for="">Number</label>
-        <input required type="number" name="" id="">
-        <br>
-        <br>
-        <label for="">Passowrd</label>
-        <input required type="password" name="" id="">
-        <br>
-        <br>
-        <button type="submit">Submit</button>
-
-
-
-    </form> -->
 
 
 </body>
